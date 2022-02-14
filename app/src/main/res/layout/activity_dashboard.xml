@@ -1,0 +1,61 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_margin="20dp"
+        android:id="@+id/adstud"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:text="ADD STUDENT"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_margin="20dp"
+        android:id="@+id/adfac"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:text="ADD FACULTY"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_margin="20dp"
+        android:id="@+id/sestud"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:text="SEARCH STUDENT"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_margin="20dp"
+        android:id="@+id/sefac"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:text="SEARCH FACULTY"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_margin="20dp"
+        android:id="@+id/vweb"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:text="VIEW WEBSITE"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:textSize="15dp"
+        android:layout_margin="20dp"
+        android:id="@+id/log"
+        android:textColor="@color/white"
+        android:background="@drawable/button"/>
+</LinearLayout>
